@@ -1,0 +1,31 @@
+.bg_custom {
+    background-color: #ea7d3e;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+.line{
+    border-width: 3px;
+    color: #ffffff;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px; /* Adjust width as needed */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+.content {
+  margin-left: 200px; /* Should match the width of the sidebar */
+  padding: 20px; /* Adjust padding as needed */
+  z-index: 1; /* Ensure the content appears above other elements */
+  position: relative; /* Ensure z-index works properly */
+}
+
+.scrollableContent {
+  height: calc(100vh - 20px); /* Adjust to fit your layout */
+  padding: 20px; /* Adjust padding as needed */
+}
+

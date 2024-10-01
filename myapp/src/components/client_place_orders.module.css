@@ -1,0 +1,123 @@
+.bg_custom {
+    background-color: #ea7d3e;
+    border-radius: 0px 25px 25px 0px;
+  }
+
+.line{
+    border-width: 3px;
+    color: #ffffff;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 200px; /* Adjust width as needed */
+  background-color: #f0f0f0; /* Example background color */
+}
+
+.content {
+  margin-left: 250px; /* Should match the width of the sidebar */
+  padding: 20px; /* Adjust padding as needed */
+  z-index: 1; /* Ensure the content appears above other elements */
+  position: relative; /* Ensure z-index works properly */
+  
+}
+
+.scrollableContent {
+  height: calc(100vh - 20px); /* Adjust to fit your layout */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+
+.profiledata{
+    margin-top: 12%;
+    margin-left: 2%;
+}
+
+
+.help{
+    height: auto;
+    padding: 50px;
+}
+.quotation{
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+}
+
+/* .quote{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #ef7e3d;
+    border-color: #ef7e3d;
+    color: #ffffff;
+    margin-left: 300px;
+    margin-top: 310px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.5);
+    transition: width 0.3s;
+    &:hover {
+        background-color: #ffffff;
+        color: #ef7e3d;
+        border-color: #ef7e3d;
+        border-width: 2.5px;
+      }
+} */
+.tag_text{
+    color: #f3894c;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family: 'poppins';
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 11px;
+    margin-bottom: 30px;
+}
+
+.explore{
+    text-align: center;
+    color:#F58343;
+    font-size: 50px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 120px;
+}
+/* .q{
+    font-size: 20px;
+    background-color: #ef7e3d;
+    border: none;
+    color: #ffffff;
+    margin-left: 900px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: width 0.3s;
+    &:hover {
+        background-color: #ffffff;
+        color: #ef7e3d;
+        border-color: #ef7e3d;
+        border-width: 2.5px;
+      }
+} */
+
+.quote,
+.q {
+    font-size: 20px;
+    background-color: #ef7e3d;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.quote:hover,
+.q:hover {
+    background-color: #ffffff;
+    color: #ef7e3d;
+    border: 2.5px solid #ef7e3d;
+}
+

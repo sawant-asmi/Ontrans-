@@ -1,0 +1,90 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@fullcalendar/core": "^6.1.11",
+    "@fullcalendar/daygrid": "^6.1.11",
+    "@fullcalendar/list": "^6.1.11",
+    "@fullcalendar/timegrid": "^6.1.11",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@mui/x-data-grid": "^7.3.1",
+    "@nivo/bar": "^0.85.1",
+    "@nivo/core": "^0.85.1",
+    "@nivo/geo": "^0.85.1",
+    "@nivo/line": "^0.85.1",
+    "@nivo/pie": "^0.85.1",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.9.1",
+    "cors": "^2.8.5",
+    "dialogflow": "^1.2.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "emailjs-com": "^3.2.0",
+    "encoding": "^0.1.13",
+    "express": "^4.19.2",
+    "formik": "^2.4.6",
+    "google-map-react": "^2.2.1",
+    "mdb-react-ui-kit": "^6.3.0",
+    "ml-cart": "^2.1.1",
+    "nodemailer": "^6.9.13",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "powerbi-client": "^2.23.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-pro-sidebar": "^1.1.0",
+    "react-router-dom": "^6.23.0",
+    "react-scripts": "^5.0.1",
+    "react-simple-chatbot": "^0.6.1",
+    "semantic-ui-react": "^2.1.5",
+    "sequelize": "^6.35.2",
+    "sklearn": "^0.4.0",
+    "stream-browserify": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "concurrently \"npm run start-react\" \"npm run start-server\"",
+    "start-react": "react-scripts start",
+    "start-server": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
